@@ -1,8 +1,11 @@
 .forgot {
     border: 1px black solid;
     border-radius: 5px;
+    background-color: white;
+    opacity: 0.8;
 }
 
 .forgot-form {
     text-align: center;
+    
 }

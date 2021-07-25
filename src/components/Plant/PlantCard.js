@@ -1,12 +1,14 @@
 import React from 'react';
 import './PlantCard.css';
+import aloe from '../Assets/plant-images/aloe.jpg';
 
 const PlantCard = (props) => <div class="card" style={{ width: '18rem' }}>
     <div class="plant-card">
-        <img src="aloe.jpg" alt=""/>
         <p>Main Plant Card</p>
-        <h1> Plant Name </h1>
-            <p> Plant Type </p>
+        <img src={aloe} alt=""/>
+        
+        <h1> Archie </h1>
+            <p> Aloe </p>
        
         <button variant="primary">Update Log</button>
         <button variant="primary">RIP Plant</button>

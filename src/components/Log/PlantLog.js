@@ -1,12 +1,12 @@
 import React from 'react';
-import './PlantLog.css'
+import './PlantLog.css';
+import aloe from '../Assets/plant-images/aloe.jpg';
 
 function PlantLog(props) {
     return (
         <div class="card">
             <div id="plantlog-entry">
             <h4>Plant Log</h4>
-                <img src="" alt="" />
                 <table>
                     <tr>
                         <th>Photo</th>
@@ -18,6 +18,18 @@ function PlantLog(props) {
                         <th>Nutrient Used</th>
                         <th>Nutrient Amount </th>
                         <th>Organic?</th>
+                    </tr>
+                    <tr>
+                        <td><img class="img" src={aloe} alt="" /></td>
+                        <td>"Green Leaves"</td>
+                        <td>"2:22 on 2/22/21"</td>
+                        <td>70-75</td>
+                        <td>"70-75%"</td>
+                        <td>"1-3mL"</td>
+                        <td>"Eggshells"</td>
+                        <td>"1-3mL"</td>
+                        <td>Yes</td>
+
                     </tr>
                 </table>
                 <br />

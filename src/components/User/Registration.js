@@ -12,9 +12,11 @@ function Registration(props) {
             <div class="registration-form">
                 <label>UserName<input class="form-control" type="text" 
                 name="username" id="entry-field" placeholder="UserName"></input></label>
+                <br />
         
                 <label>Email<input class="form-control" type="text" 
                 name="email" id="entry-field" placeholder="Email"></input></label>
+                <br />
         
                 <label>Password<input class="form-control" type="password" 
                 name="password" id="entry-field" placeholder="Password"></input></label>

@@ -7,3 +7,8 @@
 .registration-form {
     text-align: center;
 }
+
+.registration {
+    background-color: white;
+    opacity: 0.8;
+}

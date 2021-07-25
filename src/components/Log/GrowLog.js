@@ -1,5 +1,6 @@
 import React from 'react';
-import './PlantLog.css'
+import './PlantLog.css';
+import aloe from '../Assets/plant-images/aloe.jpg';
 
 function GrowLog(props) {
     return (
@@ -13,6 +14,13 @@ function GrowLog(props) {
                         <th>Photo</th>
                         <th>Comment</th>
                         <th>Timestamp</th>
+                    </tr>
+
+                    <tr>
+                        <td>Celestial/1</td>
+                        <td><img class="img" src={aloe} alt="" /></td>
+                        <td>Soil seems dry</td>
+                        <td>2:22 on 2/22/21</td>
                     </tr>
                 </table>
                 <br />

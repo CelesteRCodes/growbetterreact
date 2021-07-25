@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import "./Login.css";
 import Registration from "./Registration";
 import Forgot from "./Forgot";
@@ -20,31 +18,25 @@ export default function Login() {
   }
 
   return (
-    <div class="Login">
-      <Form onSubmit={handleSubmit}>
-        <Form.Group size="lg" controlId="email">
-          <Form.Label>Email</Form.Label>
-          <Form.Control
-            autoFocus
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </Form.Group>
-        <Form.Group size="lg" controlId="password">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <br />
-        </Form.Group>
-        <Button block size="lg" type="submit" disabled={!validateForm()}>
-          Login
-        </Button>
-        <br /><br />
-      </Form>
+    <div class="login">
+      <p>Login Form</p>
+      <form action="/">
+        
+            <div class="login-form">
+                <label>Email<input class="form-control" type="text" 
+                name="email" id="entry-field" placeholder="Email"></input></label>
+        
+                <label>Password<input class="form-control" type="password" 
+                name="password" id="entry-field" placeholder="Password"></input></label>
+                <br /><br />
+                <button type="submit"><a href='/'>Login</a></button>
+                <br /><br />
+                <button type="submit"><a href='/'>Forgot PW</a></button>
+                <button type="submit"><a href='/'>Register</a></button>
+                <br /><br />
+           
+            </div>
+        </form>
 
       <Registration />
       <Forgot />

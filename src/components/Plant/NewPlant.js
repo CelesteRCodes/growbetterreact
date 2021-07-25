@@ -6,7 +6,7 @@ function NewPlant(props){
         <div class="new-plant-form" align="center">
             <br />
             <p>New Plant Entry Form</p>
-            <h3>New Plant Baby?!</h3>
+            <h4>New Plant Baby?!</h4>
             <p>Tell Us More About Them Below</p>
             <form action="/">
             <div class="form-group">

@@ -1,19 +1,13 @@
 7/24:  
-    Card.js img not showing up on Card
-    
-    Card is showing up on homepage under login, should not show 
+    Cards showing up on homepage under login, should not show 
     until user has logged in
         - need to use conditional rendering (will watch YT tutorials)
-
 
     make UserPlants a page of Card components for each plant
         - can show a carousel of plant images added by user 
           (later sprint)
         - later sprint, auto create new card for each plant added 
           by user
-
-    currently, homepage shows Login form and the UserPlants 
-        - missing a ForgotPW link to form to retrieve info/change PW
 
     need to make a database to hold users, plants, and plant logs
 
@@ -22,6 +16,8 @@
     plant log can be a table for now, will want to find another way
     to display entries
         - want to add a delete button to each entry and edit option
+        - table currently not responsive with diff screen sizes;
+          table should break and stack
 
     MVP:
         be able to see function login on home page only
@@ -52,3 +48,7 @@
             - buttons to go back to show user plants, and to log out
             - display a button on each entry to delete entry (doesn't 
               have to be functional yet)
+              
+              
+  RESOLVED:
+    - Card.js img not showing up on Card (RESOLVED - 7/25)
