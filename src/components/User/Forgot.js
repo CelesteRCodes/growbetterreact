@@ -3,6 +3,8 @@ import './Forgot.css';
 
 function Forgot(props) {
     return (<div class="forgot" align="center">
+        <br />
+        <p>Forgot PW Form</p>
         <h3>Brain Fart?</h3>
         <h6>Enter Email to Reset Password</h6>
         <form action="/">

@@ -5,6 +5,7 @@ function PlantLog(props) {
     return (
         <div class="card">
             <div id="plantlog-entry">
+            <h4>Plant Log</h4>
                 <img src="" alt="" />
                 <table>
                     <tr>
@@ -19,9 +20,11 @@ function PlantLog(props) {
                         <th>Organic?</th>
                     </tr>
                 </table>
+                <br />
                 <button variant="primary">Edit Entry</button>
                 <button variant="primary">Delete Entry</button>
-    
+                <br />
+                <br />
     
             </div>
         </div>

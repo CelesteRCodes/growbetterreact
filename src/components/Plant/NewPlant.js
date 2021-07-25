@@ -4,6 +4,8 @@ import './NewPlant.css'
 function NewPlant(props){
     return(
         <div class="new-plant-form" align="center">
+            <br />
+            <p>New Plant Entry Form</p>
             <h3>New Plant Baby?!</h3>
             <p>Tell Us More About Them Below</p>
             <form action="/">
@@ -91,8 +93,7 @@ function NewPlant(props){
             <button type="submit"><a href='/'>Submit</a></button>
             
             <button type="cancel"><a href="/login">Cancel</a></button>
-
-    
+            <br /> <br />
     </div>
     </form>
     </div>

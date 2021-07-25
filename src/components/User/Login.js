@@ -20,7 +20,7 @@ export default function Login() {
   }
 
   return (
-    <div className="Login">
+    <div class="Login">
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
@@ -38,10 +38,12 @@ export default function Login() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+          <br />
         </Form.Group>
         <Button block size="lg" type="submit" disabled={!validateForm()}>
           Login
         </Button>
+        <br /><br />
       </Form>
 
       <Registration />

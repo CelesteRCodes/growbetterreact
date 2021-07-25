@@ -7,6 +7,8 @@ function NewEntry(props){
         <div class="new-plant-form" align="center">
              <form action="/">
                  <div class="entry-form">
+                     <br />
+                     <p>Add New Entry Log</p>
                      <h3>Update Plant's Log Below</h3>
                      <label><strong>Watered?</strong></label><br />
                      <select name="water">
