@@ -1,0 +1,54 @@
+7/24:  
+    Card.js img not showing up on Card
+    
+    Card is showing up on homepage under login, should not show 
+    until user has logged in
+        - need to use conditional rendering (will watch YT tutorials)
+
+
+    make UserPlants a page of Card components for each plant
+        - can show a carousel of plant images added by user 
+          (later sprint)
+        - later sprint, auto create new card for each plant added 
+          by user
+
+    currently, homepage shows Login form and the UserPlants 
+        - missing a ForgotPW link to form to retrieve info/change PW
+
+    need to make a database to hold users, plants, and plant logs
+
+    need to make functions to create new cards for new plants added
+
+    plant log can be a table for now, will want to find another way
+    to display entries
+        - want to add a delete button to each entry and edit option
+
+    MVP:
+        be able to see function login on home page only
+            - logs in and logs out
+
+        registration page shows for to register new user
+            - buttons to submit new user or cancel/go back to home
+        
+        once logged in, shows a card of user's plant 
+        (hardcode for now)
+            - buttons to log out/go back to home, to plant 
+              details for each card, plant log for each card, 
+              and grow log (for admin)
+            - show image of plant (hardcoded)
+            - possibly show a dropdown of options for each plant
+              (edit plant log, delete plant log, delete plant,
+              send plant to graveyard, rename plant)
+
+        plant details page shows details of specfic plant
+            - buttons to add new entry to plant log, to show plant log,
+              to go back to show user plants, to log out
+        
+        plant log shows table of plant log entries (hardcode one entry)
+            - buttons to add new entry, to go back to show user plants,
+              to log out
+
+        admin grow log, shows all entries into database (not created yet)
+            - buttons to go back to show user plants, and to log out
+            - display a button on each entry to delete entry (doesn't 
+              have to be functional yet)
